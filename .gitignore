@@ -1,0 +1,5 @@
+*.pyc
+*.ttx
+
+_*.ignore
+*~

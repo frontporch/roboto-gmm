@@ -1,0 +1,56 @@
+trigger:
+- develop
+
+pool:
+    vm-image: 'ubuntu-21.04'
+
+variables:
+- group: 'Global Settings'
+
+name: roboto_gmm_$(Date:yyyyMMdd)$(Rev:.r)
+
+steps:
+  - task: UseGitVersion@5
+    displayName: GitVersion
+    inputs:
+      versionSpec: 5.1.3
+    condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'),contains(variables['Build.DefinitionName'], 'gmm-static')))
+
+  - powershell: |
+        if ("$(Build.DefinitionName)" -like "GMM-Static") {
+            # For npm the delimeter cannot be a period. :'(
+            $version = "$(GitVersion.SemVer)-$(GitVersion.CommitsSinceVersionSource)";
+            Write-Output "##vso[task.setvariable variable=GITVERSION_UPDATED]$version";
+        } else {
+            $version = "$(GitVersion.SemVer).$(GitVersion.CommitsSinceVersionSource)";
+        }
+
+        Write-Host "##vso[build.updatebuildnumber]$version";
+        # For passing to the other jobs
+        Write-Host "##vso[task.setvariable variable=VERSION;isOutput=true]$version"
+    displayName: "Update version number to SemVer"
+    name: setVersion
+    condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'), contains(variables['Build.DefinitionName'], 'gmm-static')))
+
+  - powershell: |
+        $script:version = "$(GitVersion.SemVer)".toLower();
+        Write-Host "##vso[build.updatebuildnumber]$version";
+    displayName: "PA - Update version number to SemVer"
+    condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master')),contains(variables['Build.DefinitionName'], 'problem-authoring'))
+
+
+  - script: |
+        sudo apt-get install software-properties-common
+        sudo add-apt-repository ppa:fontforge/fontforge
+        sudo apt-get update
+        echo "------Install FontForge------"
+        sudo apt-get install python-fontforge --verbose-versions
+        echo "------Import FontForge------"
+        /usr/bin/python -c "import fontforge;print(fontforge)"
+    displayName: 'Install the dependency packages'
+
+  - script: python build.py
+    displayName: 'Build Font'
+  
+  - publish: $(System.DefaultWorkingDirectory)/published
+    artifact: Roboto-GMM
