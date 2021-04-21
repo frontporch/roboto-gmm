@@ -21,8 +21,7 @@ Here is a [resource link](https://fontforge.org/docs/scripting/python.html) with
 ### To Generate Fonts
 
 ```cmd
-cd src
-ffpython.exe .\scripts\build.py
+ffpython.exe .\build.py
 ```
 
 The font files will be generated in the `build\published` folder.
@@ -40,6 +39,8 @@ The font files will be generated in the `build\published` folder.
    3. Make any adjustment needed
    4. Click `File` --> `Save`
 5. Make sure to `Save` or `Save All` from the main dialog to update the `.sfd` file
+6. Please note that saving these files may cause the builds to break if there is a version mismatch
+7. If this happens, open each .sdf file in `notepadd++` and change the version in the top line from `3.2` to `3.0`
 
 #### Additional Note:
 
