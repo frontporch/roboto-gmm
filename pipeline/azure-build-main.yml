@@ -58,7 +58,7 @@ steps:
   - task: ArchiveFiles@2
     displayName: 'Archive $(Build.SourcesDirectory)'
     inputs:
-      rootFolderOrFile: '$(Build.SourcesDirectory)'
+      rootFolderOrFile: '$(Build.SourcesDirectory)/published'
       includeRootFolder: false
       archiveType: 'tar'
       archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz'
