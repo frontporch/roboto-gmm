@@ -52,5 +52,20 @@ steps:
   - script: python build.py
     displayName: 'Build Font'
   
-  - publish: $(System.DefaultWorkingDirectory)/published
-    artifact: Roboto-GMM
+  # - publish: $(System.DefaultWorkingDirectory)/published
+  #   artifact: Roboto-GMM
+
+  - task: ArchiveFiles@2
+    displayName: 'Archive $(Build.SourcesDirectory)'
+    inputs:
+      rootFolderOrFile: '$(Build.SourcesDirectory)'
+      includeRootFolder: false
+      archiveType: 'tar'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz'
+      replaceExistingArchive: true
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: Roboto-GMM'
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz'
+      ArtifactName: 'Roboto-GMM'  
