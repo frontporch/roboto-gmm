@@ -51,9 +51,6 @@ steps:
 
   - script: python build.py
     displayName: 'Build Font'
-  
-  # - publish: $(System.DefaultWorkingDirectory)/published
-  #   artifact: Roboto-GMM
 
   - task: ArchiveFiles@2
     displayName: 'Archive $(Build.SourcesDirectory)'
