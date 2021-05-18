@@ -2,7 +2,7 @@ trigger:
 - develop
 
 pool:
-    vmimage: 'ubuntu-20.04'
+    vmimage: 'ubuntu-21.04'
 
 variables:
 - group: 'Global Settings'
