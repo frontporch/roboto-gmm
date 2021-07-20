@@ -29,6 +29,16 @@ FONT_STYLE_MAPS     = {
                         },
                         "Regular": {}
                     }
+FONT_FACE_TEMPLATE = '''@font-face {{
+  font-family: Roboto;
+  font-style: {style};
+  font-display: swap;
+  font-weight: {weight};
+  src: local("Roboto-GMM"), url("./{font_name}.woff2") format("woff2"),
+    url("./{font_name}.woff") format("woff"),
+    url("./{font_name}.ttf") format("truetype");
+}}
+'''
 
 print("Starting build process...")
 if not os.path.exists(OUTPUT_PATH):
@@ -61,16 +71,7 @@ def _generate_font(project_file, font_file, font_name):
 
 def generate_css():
     print("Generating CSS File")
-    declaration = '''@font-face {{
-  font-family: Roboto;
-  font-style: {style};
-  font-display: swap;
-  font-weight: {weight};
-  src: local("Roboto-GMM"), url("./{font_name}.woff2") format("woff2"),
-    url("./{font_name}.woff") format("woff"),
-    url("./{font_name}.ttf") format("truetype");
-}}
-'''
+    
     with open(OUTPUT_PATH + "roboto-gmm.css", "w+") as f:
         for name in FONT_NAME_LIST:
             font_name = FONT_FAMILY_NAME + "-" + name
@@ -78,7 +79,7 @@ def generate_css():
             style = style_map.get("style", "normal")
             weight = style_map.get("weight", 400)
             print("writing @font-face for " + font_name)
-            f.write(declaration.format(style=style,
+            f.write(FONT_FACE_TEMPLATE.format(style=style,
                     weight=weight, font_name=font_name))
 
 
