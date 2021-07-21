@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Roboto-GMM"), url("./Roboto-GMM-Bold.woff2") format("woff2"),
+    url("./Roboto-GMM-Bold.woff") format("woff"),
+    url("./Roboto-GMM-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  font-style: italic;
+  font-display: swap;
+  font-weight: 700;
+  src: local("Roboto-GMM"), url("./Roboto-GMM-BoldItalic.woff2") format("woff2"),
+    url("./Roboto-GMM-BoldItalic.woff") format("woff"),
+    url("./Roboto-GMM-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  font-style: italic;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Roboto-GMM"), url("./Roboto-GMM-Italic.woff2") format("woff2"),
+    url("./Roboto-GMM-Italic.woff") format("woff"),
+    url("./Roboto-GMM-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local("Roboto-GMM"), url("./Roboto-GMM-Regular.woff2") format("woff2"),
+    url("./Roboto-GMM-Regular.woff") format("woff"),
+    url("./Roboto-GMM-Regular.ttf") format("truetype");
+}
