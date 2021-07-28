@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1221247774
-ModificationTime: 1611266989
+ModificationTime: 1627479631
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -422,7 +422,7 @@ ShortTable: maxp 16
   6
   2
 EndShort
-LangName: 1033 "" "" "" "Google:Roboto-GMM Italic:2021" "" "Version 2.138" "" "Roboto is a trademark of Google." "Google" "Christian Robertson" "" "Google.com" "Google.com" "Licensed under the Apache License, Version 2.0" "http://www.apache.org/licenses/LICENSE-2.0"
+LangName: 1033 "" "" "" "Google:Roboto-GMM Italic:2021" "" "Version 2.138" "" "Roboto is a trademark of Google." "Google" "Christian Robertson" "" "Google.com" "Google.com" "Licensed under the Apache License, Version 2.0" "http://www.apache.org/licenses/LICENSE-2.0" "" "Roboto-GMM" "Italic"
 Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
