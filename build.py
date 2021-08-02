@@ -13,7 +13,7 @@ MAIN_DIR            = os.path.dirname(os.getcwd())
 CURRENT_DIR         = os.getcwd()
 OUTPUT_PATH         = CURRENT_DIR + "/published/"
 SCRIPTS_PATH        = CURRENT_DIR
-FONT_NAME_LIST      = ["Bold", "BoldItalic", "Italic", "Regular"]
+FONT_NAME_LIST      = ["Bold", "BoldItalic", "Italic", "Light", "Medium", "Regular"]
 FONT_FAMILY_NAME    = "Roboto-GMM"
 FILE_TYPES          = ["ttf", "woff", "woff2"]
 FONT_STYLE_MAPS     = {
@@ -26,6 +26,12 @@ FONT_STYLE_MAPS     = {
                         },
                         "Italic": {
                             "style": "italic"
+                        },
+                        "Light": {
+                            "weight": 300
+                        },
+                        "Medium": {
+                            "weight": 500
                         },
                         "Regular": {}
                     }

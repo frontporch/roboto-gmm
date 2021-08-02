@@ -29,6 +29,24 @@
   font-family: Roboto;
   font-style: normal;
   font-display: swap;
+  font-weight: 300;
+  src: local("Roboto-GMM"), url("./Roboto-GMM-Light.woff2") format("woff2"),
+    url("./Roboto-GMM-Light.woff") format("woff"),
+    url("./Roboto-GMM-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: local("Roboto-GMM"), url("./Roboto-GMM-Medium.woff2") format("woff2"),
+    url("./Roboto-GMM-Medium.woff") format("woff"),
+    url("./Roboto-GMM-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-display: swap;
   font-weight: 400;
   src: local("Roboto-GMM"), url("./Roboto-GMM-Regular.woff2") format("woff2"),
     url("./Roboto-GMM-Regular.woff") format("woff"),
