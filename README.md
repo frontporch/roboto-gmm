@@ -45,3 +45,6 @@ The font files will be generated in the `build\published` folder.
 #### Additional Note:
 
 When creating the glyphs make sure to keep in mind the `Ascent: 1638` and the `Decent: 410` with an overall `Em Size: 2048`.
+
+Anytime the `.sfd` file is altered, it will change the setting `SplineFontDB:` to  `3.2`. Please make sure to change this back to: `SplineFontDB: 3.0`.
+This is needed in order for the build to succeed. You can alter this setting by opening up the `.sfd` file in Visual Studio Code.
