@@ -1,11 +1,11 @@
 trigger:
-- develop
+  - develop
 
 pool:
-    vmimage: 'ubuntu-18.04'
+  vmimage: "ubuntu-18.04"
 
 variables:
-- group: 'Global Settings'
+  - group: "Global Settings"
 
 name: roboto_gmm_$(Date:yyyyMMdd)$(Rev:.r)
 
@@ -17,52 +17,53 @@ steps:
     condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'),contains(variables['Build.DefinitionName'], 'gmm-static')))
 
   - powershell: |
-        if ("$(Build.DefinitionName)" -like "GMM-Static") {
-            # For npm the delimeter cannot be a period. :'(
-            $version = "$(GitVersion.SemVer)-$(GitVersion.CommitsSinceVersionSource)";
-            Write-Output "##vso[task.setvariable variable=GITVERSION_UPDATED]$version";
-        } else {
-            $version = "$(GitVersion.SemVer).$(GitVersion.CommitsSinceVersionSource)";
-        }
+      if ("$(Build.DefinitionName)" -like "GMM-Static") {
+          # For npm the delimeter cannot be a period. :'(
+          $version = "$(GitVersion.SemVer)-$(GitVersion.CommitsSinceVersionSource)";
+          Write-Output "##vso[task.setvariable variable=GITVERSION_UPDATED]$version";
+      } else {
+          $version = "$(GitVersion.SemVer).$(GitVersion.CommitsSinceVersionSource)";
+      }
 
-        Write-Host "##vso[build.updatebuildnumber]$version";
-        # For passing to the other jobs
-        Write-Host "##vso[task.setvariable variable=VERSION;isOutput=true]$version"
+      Write-Host "##vso[build.updatebuildnumber]$version";
+      # For passing to the other jobs
+      Write-Host "##vso[task.setvariable variable=VERSION;isOutput=true]$version"
     displayName: "Update version number to SemVer"
     name: setVersion
     condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'), contains(variables['Build.DefinitionName'], 'gmm-static')))
 
   - powershell: |
-        $script:version = "$(GitVersion.SemVer)".toLower();
-        Write-Host "##vso[build.updatebuildnumber]$version";
+      $script:version = "$(GitVersion.SemVer)".toLower();
+      Write-Host "##vso[build.updatebuildnumber]$version";
     displayName: "PA - Update version number to SemVer"
     condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master')),contains(variables['Build.DefinitionName'], 'problem-authoring'))
 
+  - script: |
+      sudo apt-get install software-properties-common
+      sudo add-apt-repository ppa:fontforge/fontforge
+      sudo apt-get update
+      echo "------Install FontForge------"
+      sudo apt-get install python-fontforge woff2 --verbose-versions
+      echo "------Import FontForge------"
+      /usr/bin/python -c "import fontforge;print(fontforge)"
+    displayName: "Install the dependency packages"
 
   - script: |
-        sudo apt-get install software-properties-common
-        sudo add-apt-repository ppa:fontforge/fontforge
-        sudo apt-get update
-        echo "------Install FontForge------"
-        sudo apt-get install python-fontforge --verbose-versions
-        echo "------Import FontForge------"
-        /usr/bin/python -c "import fontforge;print(fontforge)"
-    displayName: 'Install the dependency packages'
-
-  - script: python build.py
-    displayName: 'Build Font'
+      python build.py
+      for f in published/*.ttf; do woff2_compress $f; done
+    displayName: "Build Font"
 
   - task: ArchiveFiles@2
-    displayName: 'Archive $(Build.SourcesDirectory)'
+    displayName: "Archive $(Build.SourcesDirectory)"
     inputs:
-      rootFolderOrFile: '$(Build.SourcesDirectory)/published'
+      rootFolderOrFile: "$(Build.SourcesDirectory)/published"
       includeRootFolder: false
-      archiveType: 'tar'
-      archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz'
+      archiveType: "tar"
+      archiveFile: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz"
       replaceExistingArchive: true
 
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact: Roboto-GMM'
+    displayName: "Publish Artifact: Roboto-GMM"
     inputs:
-      PathtoPublish: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz'
-      ArtifactName: 'Roboto-GMM'  
+      PathtoPublish: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).tar.gz"
+      ArtifactName: "Roboto-GMM"
