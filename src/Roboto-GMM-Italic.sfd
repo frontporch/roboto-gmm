@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1221247774
-ModificationTime: 1627479631
+ModificationTime: 1628032877
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -429,11 +429,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 8697 39 13
+WinInfo: 9044 34 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 2 subtable" "Anchor-1" "'mark' Mark Positioning lookup 3 subtable" "Anchor-2" "'mark' Mark Positioning lookup 4 subtable" "Anchor-3" "'mark' Mark Positioning lookup 5 subtable" "Anchor-4" "'mark' Mark Positioning lookup 6 subtable" "Anchor-5" "'mark' Mark Positioning lookup 7 subtable" "Anchor-6" "'mark' Mark Positioning lookup 8 subtable" "Anchor-7" "'mark' Mark Positioning lookup 9 subtable" "Anchor-8" "'mark' Mark Positioning lookup 10 subtable" "Anchor-9" "'mark' Mark Positioning lookup 11 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 12 subtable" "Anchor-11" "'mkmk' Mark to Mark lookup 13 subtable"
-BeginChars: 1114729 3396
+BeginChars: 1114729 3400
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -89754,6 +89754,74 @@ SplineSet
  1128 985 l 1,10,-1
  1891 1639 l 1,11,-1
  2006 1474 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni23BE
+Encoding: 9150 9150 3396
+Width: 931
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+20.2001953125 -311 m 5,0,-1
+ 348.200195312 1663.12011719 l 1,1,-1
+ 1084.54589844 1663.12011719 l 1,2,-1
+ 1048.54589844 1522.51953125 l 1,3,-1
+ 512.80859375 1522.51953125 l 1,4,-1
+ 184.80859375 -311 l 5,5,-1
+ 20.2001953125 -311 l 5,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni23BF
+Encoding: 9151 9151 3397
+Width: 931
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+7.2001953125 -315.171875 m 1,0,-1
+ 359.200195312 1666.95019531 l 1,1,-1
+ 536.075195312 1666.95019531 l 1,2,-1
+ 184.075195312 -149.296875 l 5,3,-1
+ 733.012695312 -149.296875 l 5,4,-1
+ 689.012695312 -315.171875 l 1,5,-1
+ 7.2001953125 -315.171875 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni23CB
+Encoding: 9163 9163 3398
+Width: 932
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+789.337890625 1509.45019531 m 1,0,-1
+ 238.799804688 1509.45019531 l 1,1,-1
+ 277.799804688 1667.12011719 l 1,2,-1
+ 947.012695312 1667.12011719 l 1,3,-1
+ 616.012695312 -306 l 5,4,-1
+ 458.337890625 -306 l 5,5,-1
+ 789.337890625 1509.45019531 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni23CC
+Encoding: 9164 9164 3399
+Width: 932
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+-64.900390625 -147.721679688 m 5,0,-1
+ 459.517578125 -147.721679688 l 1,1,-1
+ 788.517578125 1661.79980469 l 1,2,-1
+ 945.0546875 1661.79980469 l 1,3,-1
+ 616.0546875 -294.258789062 l 1,4,-1
+ -97.900390625 -294.258789062 l 1,5,-1
+ -64.900390625 -147.721679688 l 5,0,-1
 EndSplineSet
 EndChar
 EndChars
