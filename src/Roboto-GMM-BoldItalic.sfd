@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1221247774
-ModificationTime: 1628100926
+ModificationTime: 1628807083
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -429,11 +429,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 9065 35 12
+WinInfo: 9590 35 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 2 subtable" "Anchor-1" "'mark' Mark Positioning lookup 3 subtable" "Anchor-2" "'mark' Mark Positioning lookup 4 subtable" "Anchor-3" "'mark' Mark Positioning lookup 5 subtable" "Anchor-4" "'mark' Mark Positioning lookup 6 subtable" "Anchor-5" "'mark' Mark Positioning lookup 7 subtable" "Anchor-6" "'mark' Mark Positioning lookup 8 subtable" "Anchor-7" "'mark' Mark Positioning lookup 9 subtable" "Anchor-8" "'mark' Mark Positioning lookup 10 subtable" "Anchor-9" "'mark' Mark Positioning lookup 11 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 12 subtable" "Anchor-11" "'mkmk' Mark to Mark lookup 13 subtable"
-BeginChars: 1114729 3400
+BeginChars: 1114729 3403
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -23063,7 +23063,7 @@ StartChar: uni049B
 Encoding: 1179 1179 717
 Width: 1301
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-5" 1237 1284 basechar 0
 LayerCount: 2
 Fore
@@ -24074,7 +24074,7 @@ EndChar
 StartChar: uni04FB
 Encoding: 1275 1275 755
 Width: 921
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 642 1075 N 1 0 0 1 79 0 2
@@ -27066,7 +27066,7 @@ StartChar: uni1D1B
 Encoding: 7451 7451 842
 Width: 1022
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-5" 1130 1290 basechar 0
 AnchorPoint: "Anchor-1" 404 0 basechar 0
 AnchorPoint: "Anchor-0" 627 1290 basechar 0
@@ -27377,7 +27377,7 @@ StartChar: uni1D26
 Encoding: 7462 7462 853
 Width: 862
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-5" 970 1290 basechar 0
 AnchorPoint: "Anchor-1" 396 0 basechar 0
 AnchorPoint: "Anchor-0" 619 1290 basechar 0
@@ -27412,7 +27412,7 @@ StartChar: uni1D28
 Encoding: 7464 7464 855
 Width: 1176
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-5" 1285 1290 basechar 0
 AnchorPoint: "Anchor-1" 479 0 basechar 0
 AnchorPoint: "Anchor-0" 702 1290 basechar 0
@@ -40498,7 +40498,7 @@ EndChar
 StartChar: uni217F
 Encoding: 8575 8575 1325
 Width: 1727
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 82 109 N 1 0 0 1 -1 0 2
@@ -50481,7 +50481,7 @@ EndChar
 StartChar: uniA741
 Encoding: 42817 42817 1660
 Width: 1172
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 80 107 N 1 0 0 1 101 0 2
@@ -54618,7 +54618,7 @@ EndChar
 StartChar: uniAB35
 Encoding: 43829 43829 1785
 Width: 722
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 75 102 N 1 0 0 1 0 0 2
@@ -56321,7 +56321,7 @@ StartChar: f_f
 Encoding: 64256 64256 1833
 Width: 1308
 GlyphClass: 3
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 75 102 N 1 0 0 1 0 0 2
@@ -71365,7 +71365,7 @@ StartChar: kcommaaccent
 Encoding: 311 311 2386
 Width: 1061
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 804 1603 basechar 0
 AnchorPoint: "Anchor-5" 1108 1603 basechar 0
 AnchorPoint: "Anchor-3" 887 -407 basechar 0
@@ -75756,7 +75756,7 @@ StartChar: uni0453
 Encoding: 1107 1107 2615
 Width: 832
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 531 1284 basechar 0
 AnchorPoint: "Anchor-5" 950 1284 basechar 0
 AnchorPoint: "Anchor-0" 589 1659 basechar 0
@@ -75841,7 +75841,7 @@ StartChar: uni045C
 Encoding: 1116 1116 2620
 Width: 1119
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 680 1284 basechar 0
 AnchorPoint: "Anchor-5" 1237 1284 basechar 0
 AnchorPoint: "Anchor-0" 738 1659 basechar 0
@@ -76114,7 +76114,7 @@ StartChar: uni1E3F
 Encoding: 7743 7743 2636
 Width: 1720
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 998 1290 basechar 0
 AnchorPoint: "Anchor-5" 1839 1290 basechar 0
 AnchorPoint: "Anchor-3" 1545 -407 basechar 0
@@ -78727,7 +78727,7 @@ StartChar: uni04AD
 Encoding: 1197 1197 2788
 Width: 1012
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 626 1269 basechar 0
 AnchorPoint: "Anchor-5" 1127 1269 basechar 0
 AnchorPoint: "Anchor-0" 626 1269 basechar 0
@@ -78784,7 +78784,7 @@ StartChar: uni04F7
 Encoding: 1271 1271 2792
 Width: 832
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 531 1284 basechar 0
 AnchorPoint: "Anchor-5" 950 1284 basechar 0
 AnchorPoint: "Anchor-0" 531 1284 basechar 0
@@ -79889,7 +79889,7 @@ StartChar: kcaron
 Encoding: 489 489 2852
 Width: 1061
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 804 1603 basechar 0
 AnchorPoint: "Anchor-5" 1108 1603 basechar 0
 AnchorPoint: "Anchor-3" 887 -407 basechar 0
@@ -81633,7 +81633,7 @@ StartChar: uni1E1F
 Encoding: 7711 7711 2950
 Width: 712
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 633 1688 basechar 0
 AnchorPoint: "Anchor-5" 899 1688 basechar 0
 AnchorPoint: "Anchor-3" 537 -407 basechar 0
@@ -81858,7 +81858,7 @@ StartChar: uni1E31
 Encoding: 7729 7729 2962
 Width: 1061
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 804 1603 basechar 0
 AnchorPoint: "Anchor-5" 1108 1603 basechar 0
 AnchorPoint: "Anchor-3" 887 -407 basechar 0
@@ -81895,7 +81895,7 @@ StartChar: uni1E33
 Encoding: 7731 7731 2964
 Width: 1061
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 804 1603 basechar 0
 AnchorPoint: "Anchor-5" 1108 1603 basechar 0
 AnchorPoint: "Anchor-3" 887 -407 basechar 0
@@ -81932,7 +81932,7 @@ StartChar: uni1E35
 Encoding: 7733 7733 2966
 Width: 1061
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 804 1603 basechar 0
 AnchorPoint: "Anchor-5" 1108 1603 basechar 0
 AnchorPoint: "Anchor-3" 887 -407 basechar 0
@@ -82117,7 +82117,7 @@ StartChar: uni1E41
 Encoding: 7745 7745 2976
 Width: 1720
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 998 1290 basechar 0
 AnchorPoint: "Anchor-5" 1839 1290 basechar 0
 AnchorPoint: "Anchor-3" 1545 -407 basechar 0
@@ -82155,7 +82155,7 @@ StartChar: uni1E43
 Encoding: 7747 7747 2978
 Width: 1720
 GlyphClass: 2
-Flags: W
+Flags: HW
 AnchorPoint: "Anchor-6" 998 1290 basechar 0
 AnchorPoint: "Anchor-5" 1839 1290 basechar 0
 AnchorPoint: "Anchor-3" 1545 -407 basechar 0
@@ -89253,7 +89253,7 @@ EndChar
 StartChar: uni23CC
 Encoding: 9164 9164 3399
 Width: 1030
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -89264,6 +89264,94 @@ SplineSet
  -63.400390625 -331.758789062 l 1,4,-1
  -19.400390625 -110.221679688 l 1,5,-1
  563.017578125 -110.221679688 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni25CF
+Encoding: 9679 9679 3400
+Width: 1003
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+304 825 m 2,0,1
+ 321 896 321 896 354 958 c 0,2,3
+ 400 1041 400 1041 472 1105 c 0,4,5
+ 548 1171 548 1171 637 1201 c 0,6,7
+ 701 1222 701 1222 770 1222 c 128,-1,9
+ 839 1222 839 1222 894 1201 c 0,10,11
+ 970 1171 970 1171 1016 1105 c 0,12,13
+ 1058 1041 1058 1041 1066 958 c 0,14,15
+ 1071 895 1071 895 1056 825 c 2,16,-1
+ 1046 782 l 2,17,18
+ 1029 711 1029 711 996 649 c 0,19,20
+ 950 566 950 566 877 501 c 0,21,22
+ 801 436 801 436 711 407 c 0,23,24
+ 647 387 647 387 579 388 c 0,25,26
+ 510 388 510 388 456 407 c 0,27,28
+ 380 436 380 436 334 501 c 0,29,30
+ 291 565 291 565 283 649 c 0,31,32
+ 278 712 278 712 294 782 c 2,33,-1
+ 304 825 l 2,0,1
+EndSplineSet
+EndChar
+
+StartChar: uni26AB
+Encoding: 9899 9899 3401
+Width: 1132
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+277 783 m 2,0,-1
+ 287 824 l 2,1,2
+ 308 913 308 913 349 990 c 0,3,4
+ 407 1096 407 1096 498 1175 c 0,5,6
+ 594 1259 594 1259 707 1296 c 0,7,8
+ 786 1321 786 1321 869 1322 c 2,9,-1
+ 870 1322 l 2,10,11
+ 955 1321 955 1321 1021 1296 c 0,12,13
+ 1119 1257 1119 1257 1175 1174 c 0,14,15
+ 1271 1028 1271 1028 1224 824 c 2,16,-1
+ 1215 783 l 2,17,18
+ 1194 695 1194 695 1152 617 c 0,19,20
+ 1093 510 1093 510 1002 431 c 0,21,22
+ 905 347 905 347 792 312 c 0,23,24
+ 713 288 713 288 632 287 c 0,25,26
+ 548 287 548 287 481 312 c 0,27,28
+ 384 349 384 349 327 431 c 0,29,30
+ 230 576 230 576 277 783 c 2,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni2B24
+Encoding: 11044 11044 3402
+Width: 1763
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1805 788 m 1,0,-1
+ 1805 787 l 2,1,2
+ 1770 645 1770 645 1705 527 c 0,3,4
+ 1609 354 1609 354 1462 226 c 0,5,6
+ 1298 86 1298 86 1119 32 c 0,7,8
+ 996 -5 996 -5 875 -6 c 2,9,-1
+ 873 -6 l 2,10,11
+ 743 -5 743 -5 640 34 c 0,12,13
+ 482 97 482 97 391 228 c 0,14,15
+ 236 462 236 462 310 789 c 2,16,-1
+ 320 834 l 2,17,18
+ 355 977 355 977 420 1095 c 0,19,20
+ 517 1268 517 1268 659 1393 c 0,21,22
+ 932 1627 932 1627 1250 1629 c 2,23,-1
+ 1252 1629 l 1,24,-1
+ 1253 1629 l 2,25,26
+ 1386 1627 1386 1627 1488 1587 c 0,27,28
+ 1646 1523 1646 1523 1735 1390 c 0,29,30
+ 1820 1260 1820 1260 1835 1099 c 0,31,32
+ 1845 971 1845 971 1815 833 c 2,33,-1
+ 1805 788 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
