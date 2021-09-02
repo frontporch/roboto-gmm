@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1221247774
-ModificationTime: 1628800977
+ModificationTime: 1630622678
 PfmFamily: 17
 TTFWeight: 700
 TTFWidth: 5
@@ -429,11 +429,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 10989 33 9
+WinInfo: 9555 39 13
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 2 subtable" "Anchor-1" "'mark' Mark Positioning lookup 3 subtable" "Anchor-2" "'mark' Mark Positioning lookup 4 subtable" "Anchor-3" "'mark' Mark Positioning lookup 5 subtable" "Anchor-4" "'mark' Mark Positioning lookup 6 subtable" "Anchor-5" "'mark' Mark Positioning lookup 7 subtable" "Anchor-6" "'mark' Mark Positioning lookup 8 subtable" "Anchor-7" "'mark' Mark Positioning lookup 9 subtable" "Anchor-8" "'mark' Mark Positioning lookup 10 subtable" "Anchor-9" "'mark' Mark Positioning lookup 11 subtable" "Anchor-10" "'mkmk' Mark to Mark lookup 12 subtable" "Anchor-11" "'mkmk' Mark to Mark lookup 13 subtable"
-BeginChars: 1114729 3403
+BeginChars: 1114729 3404
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -86833,6 +86833,24 @@ SplineSet
  1647.93 1259.46 1647.93 1259.46 1703.62 1099.28 c 0,31,32
  1746.73660823 970.962520019 1746.73660823 970.962520019 1748 832.659 c 2,33,-1
  1748 787.992 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni25B3
+Encoding: 9651 9651 3403
+Width: 1990
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+39.0341796875 1.0654296875 m 5,0,-1
+ 1954.96484375 1.0654296875 l 5,1,-1
+ 997 1672.40136719 l 5,2,-1
+ 39.0341796875 1.0654296875 l 5,0,-1
+1461.38574219 292.080078125 m 5,3,-1
+ 532.615234375 292.080078125 l 5,4,-1
+ 997 1102.28710938 l 5,5,-1
+ 1461.38574219 292.080078125 l 5,3,-1
 EndSplineSet
 EndChar
 EndChars
