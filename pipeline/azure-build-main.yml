@@ -10,10 +10,16 @@ variables:
 name: roboto_gmm_$(Date:yyyyMMdd)$(Rev:.r)
 
 steps:
-  - task: UseGitVersion@5
-    displayName: GitVersion
+  - task: gitversion/setup@0
+    displayName: Install GitVersion
     inputs:
-      versionSpec: 5.1.3
+      versionSpec: 5.8.1
+    condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'),contains(variables['Build.DefinitionName'], 'gmm-static')))
+
+  - task: gitversion/execute@0
+    displayName: Determine Version
+    inputs:
+      versionSpec: 5.8.1
     condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'),contains(variables['Build.DefinitionName'], 'gmm-static')))
 
   - powershell: |
