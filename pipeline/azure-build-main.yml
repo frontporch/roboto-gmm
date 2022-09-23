@@ -46,12 +46,9 @@ steps:
 
   - script: |
       sudo apt-get install software-properties-common
-      sudo add-apt-repository ppa:fontforge/fontforge
-      sudo apt-get update
-      echo "------Install FontForge------"
-      sudo apt-get install python-fontforge woff2 --verbose-versions
+      sudo apt-get install python3-fontforge woff2 --verbose-versions
       echo "------Import FontForge------"
-      /usr/bin/python -c "import fontforge;print(fontforge)"
+      /usr/bin/python3 -c "import fontforge;print(fontforge)"
     displayName: "Install the dependency packages"
 
   - script: |
