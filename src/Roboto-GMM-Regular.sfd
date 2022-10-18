@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1221247774
-ModificationTime: 1666046890
+ModificationTime: 1666121249
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -93,7 +93,7 @@ Lookup: 6 0 0 "'frac' Diagonal Fractions lookup 32" { "'frac' Diagonal Fractions
 Lookup: 1 0 0 "'dnom' Denominators lookup 33" { "'dnom' Denominators lookup 33 subtable"  } ['dnom' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 1 0 0 "'numr' Numerators lookup 34" { "'numr' Numerators lookup 34 subtable"  } ['frac' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) 'numr' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 257 0 0 "'cpsp' Capital Spacing lookup 0" { "'cpsp' Capital Spacing lookup 0 subtable"  } ['cpsp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1 per glyph data 0" [250,25,1] "'kern' Horizontal Kerning lookup 1 kerning class 1" [250,0,0] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 1" { "'kern' Horizontal Kerning lookup 1-1" [250,25,7] "'kern' Horizontal Kerning lookup 1 per glyph data 0" [250,25,1] "'kern' Horizontal Kerning lookup 1 kerning class 1" [250,0,0] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 2" { "'mark' Mark Positioning lookup 2 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 3" { "'mark' Mark Positioning lookup 3 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 4" { "'mark' Mark Positioning lookup 4 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AZE ' 'CRT ' 'FRA ' 'MOL ' 'NAV ' 'ROM ' 'TRK ' 'dflt' > ) ]
@@ -1771,7 +1771,7 @@ EndChar
 
 StartChar: H
 Encoding: 72 72 45
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-5" 1461 1612 basechar 0
@@ -1796,29 +1796,29 @@ SplineSet
  1288 0 l 1,11,-1
  1096 0 l 1,0,-1
 EndSplineSet
-Kerns2: 84 -125 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=36 dy=0 dh=72 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" H.smcp
 EndChar
 
 StartChar: I
 Encoding: 73 73 46
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-5" 557 1612 basechar 0
-AnchorPoint: "Anchor-3" 557 -407 basechar 0
-AnchorPoint: "Anchor-2" 557 1600 basechar 0
-AnchorPoint: "Anchor-1" 279 9 basechar 0
-AnchorPoint: "Anchor-0" 279 1612 basechar 0
+AnchorPoint: "Anchor-5" 515 1612 basechar 0
+AnchorPoint: "Anchor-3" 515 -407 basechar 0
+AnchorPoint: "Anchor-2" 515 1600 basechar 0
+AnchorPoint: "Anchor-1" 237 9 basechar 0
+AnchorPoint: "Anchor-0" 237 1612 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-376 1456 m 1,0,-1
- 376 0 l 1,1,-1
- 183 0 l 1,2,-1
- 183 1456 l 1,3,-1
- 376 1456 l 1,0,-1
+334 1456 m 1,0,-1
+ 334 0 l 1,1,-1
+ 141 0 l 1,2,-1
+ 141 1456 l 1,3,-1
+ 334 1456 l 1,0,-1
 EndSplineSet
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" I.smcp
@@ -2566,7 +2566,7 @@ SplineSet
  295 249 295 249 347 195.5 c 128,-1,41
  399 142 399 142 502 142 c 0,32,33
 EndSplineSet
-Kerns2: 85 -166 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -13 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -13 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 764 -23 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -45 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Kerns2: 81 20 "'kern' Horizontal Kerning lookup 1-1" 85 -166 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -13 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -13 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 764 -23 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -45 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'unic' Unicase lookup 2 subtable" A.unic
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" A.smcp
 EndChar
@@ -2874,7 +2874,7 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 78
-Width: 411
+Width: 427
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-5" 453 1600 basechar 0
@@ -2901,6 +2901,7 @@ SplineSet
  111 1082 l 1,15,-1
  297 1082 l 1,12,-1
 EndSplineSet
+Kerns2: 84 -44 "'kern' Horizontal Kerning lookup 1-1" 95 -44 "'kern' Horizontal Kerning lookup 1-1"
 Substitution2: "Single Substitution lookup 5 subtable" uni0069.ccmp
 Substitution2: "'unic' Unicase lookup 2 subtable" I
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" I.smcp
@@ -2981,22 +2982,22 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 81
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-5" 498 1697 basechar 0
-AnchorPoint: "Anchor-3" 498 -407 basechar 0
-AnchorPoint: "Anchor-2" 498 1600 basechar 0
-AnchorPoint: "Anchor-1" 249 10 basechar 0
-AnchorPoint: "Anchor-0" 249 1697 basechar 0
+AnchorPoint: "Anchor-5" 510 1697 basechar 0
+AnchorPoint: "Anchor-3" 510 -407 basechar 0
+AnchorPoint: "Anchor-2" 510 1600 basechar 0
+AnchorPoint: "Anchor-1" 261 10 basechar 0
+AnchorPoint: "Anchor-0" 261 1697 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-342 1536 m 1,0,-1
- 342 0 l 1,1,-1
- 156 0 l 1,2,-1
- 156 1536 l 1,3,-1
- 342 1536 l 1,0,-1
+354 1536 m 1,0,-1
+ 354 0 l 1,1,-1
+ 168 0 l 1,2,-1
+ 168 1536 l 1,3,-1
+ 354 1536 l 1,0,-1
 EndSplineSet
 Substitution2: "'unic' Unicase lookup 2 subtable" L
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" L.smcp
@@ -3004,7 +3005,7 @@ EndChar
 
 StartChar: m
 Encoding: 109 109 82
-Width: 1796
+Width: 1822
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-5" 1796 1290 basechar 0
@@ -3043,9 +3044,9 @@ SplineSet
  805 839 805 839 742 892.5 c 128,-1,33
  679 946 679 946 574 946 c 0,0,1
 EndSplineSet
-Kerns2: 70 -162 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -64 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
-Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" M.smcp
+Kerns2: 70 65 "'kern' Horizontal Kerning lookup 1-1" 74 22 "'kern' Horizontal Kerning lookup 1-1" 78 160 "'kern' Horizontal Kerning lookup 1-1" 84 -51 "'kern' Horizontal Kerning lookup 1-1" 652 -64 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'unic' Unicase lookup 2 subtable" M.unic
+Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" M.smcp
 EndChar
 
 StartChar: n
@@ -3085,40 +3086,40 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 84
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-5" 1114 1290 basechar 0
-AnchorPoint: "Anchor-4" 940 654 basechar 0
-AnchorPoint: "Anchor-3" 1114 -407 basechar 0
-AnchorPoint: "Anchor-2" 1114 1600 basechar 0
-AnchorPoint: "Anchor-1" 530 -1 basechar 0
-AnchorPoint: "Anchor-0" 521 1290 basechar 0
+AnchorPoint: "Anchor-5" 1156 1290 basechar 0
+AnchorPoint: "Anchor-4" 982 654 basechar 0
+AnchorPoint: "Anchor-3" 1156 -407 basechar 0
+AnchorPoint: "Anchor-2" 1156 1600 basechar 0
+AnchorPoint: "Anchor-1" 572 -1 basechar 0
+AnchorPoint: "Anchor-0" 563 1290 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-38 529 m 2,0,-1
- 38 552 l 2,1,2
- 38 787 38 787 170 944.5 c 128,-1,3
- 302 1102 302 1102 529 1102 c 0,4,5
- 758 1102 758 1102 890.5 944.5 c 128,-1,6
- 1023 787 1023 787 1023 552 c 2,7,-1
- 1023 529 l 2,8,9
- 1023 294 1023 294 890.5 137 c 128,-1,10
- 758 -20 758 -20 531 -20 c 0,11,12
- 303 -20 303 -20 170.5 137 c 128,-1,13
- 38 294 38 294 38 529 c 2,0,-1
-223 552 m 2,14,-1
- 223 529 l 2,15,16
- 223 368 223 368 299.5 250 c 128,-1,17
- 376 132 376 132 531 132 c 0,18,19
- 683 132 683 132 760 250 c 128,-1,20
- 837 368 837 368 837 529 c 2,21,-1
- 837 552 l 2,22,23
- 837 711 837 711 760 830.5 c 128,-1,24
- 683 950 683 950 529 950 c 0,25,26
- 376 950 376 950 299.5 830.5 c 128,-1,27
- 223 711 223 711 223 552 c 2,14,-1
+80 529 m 2,0,-1
+ 80 552 l 2,1,2
+ 80 787 80 787 212 944.5 c 128,-1,3
+ 344 1102 344 1102 571 1102 c 0,4,5
+ 800 1102 800 1102 932.5 944.5 c 128,-1,6
+ 1065 787 1065 787 1065 552 c 2,7,-1
+ 1065 529 l 2,8,9
+ 1065 294 1065 294 932.5 137 c 128,-1,10
+ 800 -20 800 -20 573 -20 c 0,11,12
+ 345 -20 345 -20 212.5 137 c 128,-1,13
+ 80 294 80 294 80 529 c 2,0,-1
+265 552 m 2,14,-1
+ 265 529 l 2,15,16
+ 265 368 265 368 341.5 250 c 128,-1,17
+ 418 132 418 132 573 132 c 0,18,19
+ 725 132 725 132 802 250 c 128,-1,20
+ 879 368 879 368 879 529 c 2,21,-1
+ 879 552 l 2,22,23
+ 879 711 879 711 802 830.5 c 128,-1,24
+ 725 950 725 950 571 950 c 0,25,26
+ 418 950 418 950 341.5 830.5 c 128,-1,27
+ 265 711 265 711 265 552 c 2,14,-1
 EndSplineSet
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'ss06' Style Set 6 lookup 25 subtable" o.ss06
@@ -3215,7 +3216,7 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 87
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-5" 694 1290 basechar 0
@@ -3240,7 +3241,7 @@ SplineSet
  663 916 l 1,14,15
  622 924 622 924 573 924 c 0,0,1
 EndSplineSet
-Kerns2: 75 15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 78 7 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 82 -42 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 89 4 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 92 17 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Kerns2: 75 15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 78 -115 "'kern' Horizontal Kerning lookup 1-1" 82 -117 "'kern' Horizontal Kerning lookup 1-1" 89 -54 "'kern' Horizontal Kerning lookup 1-1" 92 17 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" R.smcp
 Substitution2: "'unic' Unicase lookup 2 subtable" R
 EndChar
@@ -3325,7 +3326,7 @@ SplineSet
  655 148 655 148 668 151 c 1,23,-1
  669 0 l 1,0,1
 EndSplineSet
-Kerns2: 78 -132 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 84 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 88 -167 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 598 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 686 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1395 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1521 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1541 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1543 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1545 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1589 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1672 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1674 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2325 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2326 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2327 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2328 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2329 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2403 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2405 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2407 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2575 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2581 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2609 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2679 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2684 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2743 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2745 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2747 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2749 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2751 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2753 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2755 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2763 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2831 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2854 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2856 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2877 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2879 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2895 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2897 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2899 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2901 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2904 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2988 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2990 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2992 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2994 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3120 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3121 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3122 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3123 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3124 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3125 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3168 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3169 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
+Kerns2: 70 -112 "'kern' Horizontal Kerning lookup 1-1" 74 -45 "'kern' Horizontal Kerning lookup 1-1" 78 -45 "'kern' Horizontal Kerning lookup 1-1" 84 -45 "'kern' Horizontal Kerning lookup 1-1" 87 -65 "'kern' Horizontal Kerning lookup 1-1" 88 -140 "'kern' Horizontal Kerning lookup 1-1" 598 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 686 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1395 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1521 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1541 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1543 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1545 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1589 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1672 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1674 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2325 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2326 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2327 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2328 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2329 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2403 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2405 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2407 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2575 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2581 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2609 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2679 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2684 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2743 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2745 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2747 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2749 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2751 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2753 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2755 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2763 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2831 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2854 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2856 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2877 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2879 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2895 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2897 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2899 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2901 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2904 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2988 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2990 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2992 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2994 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3120 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3121 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3122 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3123 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3124 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3125 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3168 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 3169 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'unic' Unicase lookup 2 subtable" T
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" T.smcp
 EndChar
@@ -33554,7 +33555,7 @@ EndChar
 
 StartChar: uni1E28
 Encoding: 7720 7720 1065
-Width: 1461
+Width: 1491
 Flags: W
 LayerCount: 2
 Fore
@@ -39416,7 +39417,7 @@ EndChar
 
 StartChar: uni217C
 Encoding: 8572 8572 1322
-Width: 469
+Width: 545
 Flags: W
 LayerCount: 2
 Fore
@@ -67743,7 +67744,7 @@ EndChar
 
 StartChar: Igrave
 Encoding: 204 204 2293
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -67755,7 +67756,7 @@ AnchorPoint: "Anchor-0" 279 1963 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 69 96 N 1 0 0 1 -90 322 2
+Refer: 69 96 N 1 0 0 1 -132 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I gravecomb
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Igrave.smcp
@@ -67764,7 +67765,7 @@ EndChar
 
 StartChar: Iacute
 Encoding: 205 205 2294
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -67776,7 +67777,7 @@ AnchorPoint: "Anchor-0" 279 1963 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 118 180 N 1 0 0 1 54 322 2
+Refer: 118 180 N 1 0 0 1 12 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I acutecomb
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Iacute.smcp
@@ -67785,7 +67786,7 @@ EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 2295
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -67797,7 +67798,7 @@ AnchorPoint: "Anchor-0" 279 1959 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 375 710 N 1 0 0 1 -192 322 2
+Refer: 375 710 N 1 0 0 1 -234 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I circumflexnosp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Icircumflex.smcp
@@ -67806,7 +67807,7 @@ EndChar
 
 StartChar: Idieresis
 Encoding: 207 207 2296
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -67818,7 +67819,7 @@ AnchorPoint: "Anchor-0" 279 1899 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 107 168 N 1 0 0 1 -144 322 2
+Refer: 107 168 N 1 0 0 1 -186 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I dieresisnosp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Idieresis.smcp
@@ -68402,7 +68403,7 @@ EndChar
 
 StartChar: ograve
 Encoding: 242 242 2325
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -68414,7 +68415,7 @@ AnchorPoint: "Anchor-0" 575 1641 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 69 96 N 1 0 0 1 152 0 2
+Refer: 69 96 N 1 0 0 1 194 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o gravecomb
 Substitution2: "'unic' Unicase lookup 2 subtable" Ograve
@@ -68423,7 +68424,7 @@ EndChar
 
 StartChar: oacute
 Encoding: 243 243 2326
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -68435,7 +68436,7 @@ AnchorPoint: "Anchor-0" 575 1641 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 118 180 N 1 0 0 1 296 0 2
+Refer: 118 180 N 1 0 0 1 338 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o acutecomb
 Substitution2: "'unic' Unicase lookup 2 subtable" Oacute
@@ -68444,7 +68445,7 @@ EndChar
 
 StartChar: ocircumflex
 Encoding: 244 244 2327
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -68456,7 +68457,7 @@ AnchorPoint: "Anchor-0" 575 1637 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 375 710 N 1 0 0 1 50 0 2
+Refer: 375 710 N 1 0 0 1 92 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o circumflexnosp
 Substitution2: "'unic' Unicase lookup 2 subtable" Ocircumflex
@@ -68465,7 +68466,7 @@ EndChar
 
 StartChar: otilde
 Encoding: 245 245 2328
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -68477,7 +68478,7 @@ AnchorPoint: "Anchor-0" 574 1602 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 397 732 N 1 0 0 1 45 4 2
+Refer: 397 732 N 1 0 0 1 87 4 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o tildecomb
 Substitution2: "'unic' Unicase lookup 2 subtable" Otilde
@@ -68486,7 +68487,7 @@ EndChar
 
 StartChar: odieresis
 Encoding: 246 246 2329
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -68498,7 +68499,7 @@ AnchorPoint: "Anchor-0" 575 1577 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 107 168 N 1 0 0 1 98 0 2
+Refer: 107 168 N 1 0 0 1 140 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o dieresisnosp
 Substitution2: "'unic' Unicase lookup 2 subtable" Odieresis
@@ -69473,7 +69474,7 @@ EndChar
 
 StartChar: Hcircumflex
 Encoding: 292 292 2370
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -69515,7 +69516,7 @@ EndChar
 
 StartChar: Itilde
 Encoding: 296 296 2372
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -69527,7 +69528,7 @@ AnchorPoint: "Anchor-0" 278 1924 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 397 732 N 1 0 0 1 -197 326 2
+Refer: 397 732 N 1 0 0 1 -239 326 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I tildecomb
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Itilde.smcp
@@ -69554,7 +69555,7 @@ EndChar
 
 StartChar: Imacron
 Encoding: 298 298 2374
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -69566,7 +69567,7 @@ AnchorPoint: "Anchor-0" 279 1907 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -194 330 2
+Refer: 113 175 N 1 0 0 1 -236 330 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I macroncomb
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Imacron.smcp
@@ -69593,7 +69594,7 @@ EndChar
 
 StartChar: Ibreve
 Encoding: 300 300 2376
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -69605,7 +69606,7 @@ AnchorPoint: "Anchor-0" 279 1928 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 393 728 N 1 0 0 1 -150 322 2
+Refer: 393 728 N 1 0 0 1 -192 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I brevenosp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Ibreve.smcp
@@ -69632,7 +69633,7 @@ EndChar
 
 StartChar: Iogonek
 Encoding: 302 302 2378
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -69644,7 +69645,7 @@ AnchorPoint: "Anchor-0" 279 1612 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 396 731 N 1 0 0 1 -27 9 2
+Refer: 396 731 N 1 0 0 1 -69 9 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I ogoneknosp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Iogonek.smcp
@@ -69653,7 +69654,7 @@ EndChar
 
 StartChar: iogonek
 Encoding: 303 303 2379
-Width: 411
+Width: 427
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 251 1600 basechar 0
@@ -69674,7 +69675,7 @@ EndChar
 
 StartChar: Idotaccent
 Encoding: 304 304 2380
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -69686,7 +69687,7 @@ AnchorPoint: "Anchor-0" 278 1894 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 394 729 N 1 0 0 1 28 322 2
+Refer: 394 729 N 1 0 0 1 -14 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I dotnosp
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Idotaccent.smcp
@@ -69818,7 +69819,7 @@ EndChar
 
 StartChar: lacute
 Encoding: 314 314 2388
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 249 1697 basechar 0
@@ -69830,7 +69831,7 @@ AnchorPoint: "Anchor-0" 249 2048 basechar 0
 LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
-Refer: 118 180 N 1 0 0 1 24 407 2
+Refer: 118 180 N 1 0 0 1 36 407 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" l acutecomb
 Substitution2: "'unic' Unicase lookup 2 subtable" Lacute
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" Lacute.smcp
@@ -69859,7 +69860,7 @@ EndChar
 
 StartChar: lcommaaccent
 Encoding: 316 316 2390
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 249 1697 basechar 0
@@ -69871,7 +69872,7 @@ AnchorPoint: "Anchor-0" 249 1697 basechar 0
 LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
-Refer: 1832 63171 N 1 0 0 1 -7 -344 2
+Refer: 1832 63171 N 1 0 0 1 5 -344 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" l commaaccent
 Substitution2: "'unic' Unicase lookup 2 subtable" Lcommaaccent
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" Lcommaaccent.smcp
@@ -70128,7 +70129,7 @@ EndChar
 
 StartChar: omacron
 Encoding: 333 333 2403
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -70140,7 +70141,7 @@ AnchorPoint: "Anchor-0" 575 1585 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 48 8 2
+Refer: 113 175 N 1 0 0 1 90 8 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o macroncomb
 Substitution2: "'unic' Unicase lookup 2 subtable" Omacron
@@ -70170,7 +70171,7 @@ EndChar
 
 StartChar: obreve
 Encoding: 335 335 2405
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -70182,7 +70183,7 @@ AnchorPoint: "Anchor-0" 575 1606 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 393 728 N 1 0 0 1 92 0 2
+Refer: 393 728 N 1 0 0 1 134 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o brevenosp
 Substitution2: "'unic' Unicase lookup 2 subtable" Obreve
@@ -70212,7 +70213,7 @@ EndChar
 
 StartChar: ohungarumlaut
 Encoding: 337 337 2407
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -70224,7 +70225,7 @@ AnchorPoint: "Anchor-0" 575 1614 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 398 733 N 1 0 0 1 177 0 2
+Refer: 398 733 N 1 0 0 1 219 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o acutedblnosp
 Substitution2: "'unic' Unicase lookup 2 subtable" Ohungarumlaut
@@ -70253,7 +70254,7 @@ EndChar
 
 StartChar: racute
 Encoding: 341 341 2409
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -70294,7 +70295,7 @@ EndChar
 
 StartChar: rcommaaccent
 Encoding: 343 343 2411
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -70335,7 +70336,7 @@ EndChar
 
 StartChar: rcaron
 Encoding: 345 345 2413
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -73108,7 +73109,7 @@ EndChar
 
 StartChar: Eta
 Encoding: 919 919 2557
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -73127,7 +73128,7 @@ EndChar
 
 StartChar: Iota
 Encoding: 921 921 2558
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -73298,7 +73299,7 @@ EndChar
 
 StartChar: Iotadieresis
 Encoding: 938 938 2567
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -73310,7 +73311,7 @@ AnchorPoint: "Anchor-0" 279 1899 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 107 168 N 1 0 0 1 -144 322 2
+Refer: 107 168 N 1 0 0 1 -186 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" Iotadieresis.smcp
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=36 dy=0 dh=72 dv=0
@@ -73430,7 +73431,7 @@ EndChar
 
 StartChar: omicron
 Encoding: 959 959 2575
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -73517,7 +73518,7 @@ EndChar
 
 StartChar: omicrontonos
 Encoding: 972 972 2581
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -73529,7 +73530,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 557 900 N 1 0 0 1 269 -7 2
+Refer: 557 900 N 1 0 0 1 311 -7 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" Omicrontonos.smcp
 EndChar
@@ -73651,7 +73652,7 @@ EndChar
 
 StartChar: uni0406
 Encoding: 1030 1030 2587
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -73670,7 +73671,7 @@ EndChar
 
 StartChar: uni0407
 Encoding: 1031 1031 2588
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -73682,7 +73683,7 @@ AnchorPoint: "Anchor-0" 279 1899 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 107 168 N 1 0 0 1 -144 322 2
+Refer: 107 168 N 1 0 0 1 -186 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 0 subtable" uni0407.smcp
 Position2: "'cpsp' Capital Spacing lookup 0 subtable" dx=36 dy=0 dh=72 dv=0
@@ -73865,7 +73866,7 @@ EndChar
 
 StartChar: uni041D
 Encoding: 1053 1053 2599
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -74041,7 +74042,7 @@ EndChar
 
 StartChar: uni043E
 Encoding: 1086 1086 2609
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -74206,7 +74207,7 @@ EndChar
 
 StartChar: uni0456
 Encoding: 1110 1110 2617
-Width: 411
+Width: 427
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 251 1600 basechar 0
@@ -74531,7 +74532,7 @@ EndChar
 
 StartChar: uni1E3F
 Encoding: 7743 7743 2636
-Width: 1796
+Width: 1822
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 911 1290 basechar 0
@@ -74825,7 +74826,7 @@ EndChar
 
 StartChar: uni04C0
 Encoding: 1216 1216 2655
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -74872,7 +74873,7 @@ EndChar
 
 StartChar: uni04CF
 Encoding: 1231 1231 2658
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -75209,7 +75210,7 @@ EndChar
 
 StartChar: uni04E7
 Encoding: 1255 1255 2679
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -75221,7 +75222,7 @@ AnchorPoint: "Anchor-0" 575 1577 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 107 168 N 1 0 0 1 98 0 2
+Refer: 107 168 N 1 0 0 1 140 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
@@ -76262,7 +76263,7 @@ EndChar
 
 StartChar: uni1EC8
 Encoding: 7880 7880 2738
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -76274,7 +76275,7 @@ AnchorPoint: "Anchor-0" 279 2059 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 442 777 N 1 0 0 1 869 338 2
+Refer: 442 777 N 1 0 0 1 827 338 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I hook
 EndChar
@@ -76297,7 +76298,7 @@ EndChar
 
 StartChar: uni1ECA
 Encoding: 7882 7882 2740
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -76309,14 +76310,14 @@ AnchorPoint: "Anchor-0" 279 1612 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 468 803 N 1 0 0 1 876 9 2
+Refer: 468 803 N 1 0 0 1 834 9 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I dotbelow
 EndChar
 
 StartChar: uni1ECB
 Encoding: 7883 7883 2741
-Width: 411
+Width: 427
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 251 1600 basechar 0
@@ -76354,7 +76355,7 @@ EndChar
 
 StartChar: uni1ECD
 Encoding: 7885 7885 2743
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76366,7 +76367,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 468 803 N 1 0 0 1 1127 -1 2
+Refer: 468 803 N 1 0 0 1 1169 -1 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o dotbelow
 EndChar
@@ -76392,7 +76393,7 @@ EndChar
 
 StartChar: uni1ECF
 Encoding: 7887 7887 2745
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76404,7 +76405,7 @@ AnchorPoint: "Anchor-0" 575 1737 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 442 777 N 1 0 0 1 1111 16 2
+Refer: 442 777 N 1 0 0 1 1153 16 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o hook
 EndChar
@@ -76430,7 +76431,7 @@ EndChar
 
 StartChar: uni1ED1
 Encoding: 7889 7889 2747
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76442,7 +76443,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1987 -1 N 1 0 0 1 43 -8 2
+Refer: 1987 -1 N 1 0 0 1 85 -8 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o circumflexacutecomb
 EndChar
@@ -76468,7 +76469,7 @@ EndChar
 
 StartChar: uni1ED3
 Encoding: 7891 7891 2749
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76480,7 +76481,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1988 -1 N 1 0 0 1 47 6 2
+Refer: 1988 -1 N 1 0 0 1 89 6 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o circumflexgravecomb
 EndChar
@@ -76506,7 +76507,7 @@ EndChar
 
 StartChar: uni1ED5
 Encoding: 7893 7893 2751
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76518,7 +76519,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1990 -1 N 1 0 0 1 48 -27 2
+Refer: 1990 -1 N 1 0 0 1 90 -27 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o circumflexhookcomb
 EndChar
@@ -76544,7 +76545,7 @@ EndChar
 
 StartChar: uni1ED7
 Encoding: 7895 7895 2753
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76556,7 +76557,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1991 -1 N 1 0 0 1 48 -49 2
+Refer: 1991 -1 N 1 0 0 1 90 -49 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o circumflextildecomb
 EndChar
@@ -76582,7 +76583,7 @@ EndChar
 
 StartChar: uni1ED9
 Encoding: 7897 7897 2755
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -76594,8 +76595,8 @@ AnchorPoint: "Anchor-0" 575 1637 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 375 710 N 1 0 0 1 50 0 2
-Refer: 468 803 N 1 0 0 1 1127 -1 2
+Refer: 375 710 N 1 0 0 1 92 0 2
+Refer: 468 803 N 1 0 0 1 1169 -1 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
@@ -77871,7 +77872,7 @@ EndChar
 
 StartChar: Icaron
 Encoding: 463 463 2828
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -77883,7 +77884,7 @@ AnchorPoint: "Anchor-0" 279 1949 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 376 711 N 1 0 0 1 -171 322 2
+Refer: 376 711 N 1 0 0 1 -213 322 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I uni030C
 EndChar
@@ -77925,7 +77926,7 @@ EndChar
 
 StartChar: ocaron
 Encoding: 466 466 2831
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -77937,7 +77938,7 @@ AnchorPoint: "Anchor-0" 575 1627 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 376 711 N 1 0 0 1 71 0 2
+Refer: 376 711 N 1 0 0 1 113 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o uni030C
 EndChar
@@ -78341,7 +78342,7 @@ EndChar
 
 StartChar: oogonek
 Encoding: 491 491 2854
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -78353,7 +78354,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 396 731 N 1 0 0 1 224 -1 2
+Refer: 396 731 N 1 0 0 1 266 -1 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Substitution2: "'locl' Localized Forms in Latin lookup 14 subtable" oogonek.NAV
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o ogoneknosp
@@ -78381,7 +78382,7 @@ EndChar
 
 StartChar: uni01ED
 Encoding: 493 493 2856
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -78393,8 +78394,8 @@ AnchorPoint: "Anchor-0" 575 1585 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 396 731 N 1 0 0 1 224 -1 2
-Refer: 113 175 N 1 0 0 1 48 8 2
+Refer: 396 731 N 1 0 0 1 266 -1 2
+Refer: 113 175 N 1 0 0 1 90 8 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
@@ -78655,7 +78656,7 @@ EndChar
 
 StartChar: uni0208
 Encoding: 520 520 2872
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -78667,7 +78668,7 @@ AnchorPoint: "Anchor-0" 279 1917 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 448 783 N 1 0 0 1 740 317 2
+Refer: 448 783 N 1 0 0 1 698 317 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I uni030F
 EndChar
@@ -78690,7 +78691,7 @@ EndChar
 
 StartChar: uni020A
 Encoding: 522 522 2874
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -78702,7 +78703,7 @@ AnchorPoint: "Anchor-0" 279 1951 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 450 785 N 1 0 0 1 864 416 2
+Refer: 450 785 N 1 0 0 1 822 416 2
 Kerns2: 623 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 736 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 737 -27 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 739 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 761 -29 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 763 -30 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 771 -28 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" I breveinvnosp
 EndChar
@@ -78744,7 +78745,7 @@ EndChar
 
 StartChar: uni020D
 Encoding: 525 525 2877
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -78756,7 +78757,7 @@ AnchorPoint: "Anchor-0" 575 1595 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 448 783 N 1 0 0 1 982 -5 2
+Refer: 448 783 N 1 0 0 1 1024 -5 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o uni030F
 EndChar
@@ -78782,7 +78783,7 @@ EndChar
 
 StartChar: uni020F
 Encoding: 527 527 2879
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -78794,7 +78795,7 @@ AnchorPoint: "Anchor-0" 575 1629 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 450 785 N 1 0 0 1 1106 94 2
+Refer: 450 785 N 1 0 0 1 1148 94 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o breveinvnosp
 EndChar
@@ -78819,7 +78820,7 @@ EndChar
 
 StartChar: uni0211
 Encoding: 529 529 2881
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -78856,7 +78857,7 @@ EndChar
 
 StartChar: uni0213
 Encoding: 531 531 2883
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -78947,7 +78948,7 @@ EndChar
 
 StartChar: uni021E
 Encoding: 542 542 2888
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -79078,7 +79079,7 @@ EndChar
 
 StartChar: uni022B
 Encoding: 555 555 2895
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -79090,7 +79091,7 @@ AnchorPoint: "Anchor-0" 575 1872 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2263 -1 N 1 0 0 1 1106 0 2
+Refer: 2263 -1 N 1 0 0 1 1148 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o dieresismacroncomb
 EndChar
@@ -79116,7 +79117,7 @@ EndChar
 
 StartChar: uni022D
 Encoding: 557 557 2897
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -79128,7 +79129,7 @@ AnchorPoint: "Anchor-0" 575 1897 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2266 -1 N 1 0 0 1 1106 4 2
+Refer: 2266 -1 N 1 0 0 1 1148 4 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o tildemacroncomb
 EndChar
@@ -79154,7 +79155,7 @@ EndChar
 
 StartChar: uni022F
 Encoding: 559 559 2899
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -79166,7 +79167,7 @@ AnchorPoint: "Anchor-0" 574 1572 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 394 729 N 1 0 0 1 270 0 2
+Refer: 394 729 N 1 0 0 1 312 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o dotnosp
 EndChar
@@ -79192,7 +79193,7 @@ EndChar
 
 StartChar: uni0231
 Encoding: 561 561 2901
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -79204,7 +79205,7 @@ AnchorPoint: "Anchor-0" 575 1867 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2261 -1 N 1 0 0 1 1106 0 2
+Refer: 2261 -1 N 1 0 0 1 1148 0 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o dotmacroncomb
 EndChar
@@ -80099,7 +80100,7 @@ EndChar
 
 StartChar: uni1E22
 Encoding: 7714 7714 2953
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -80137,7 +80138,7 @@ EndChar
 
 StartChar: uni1E24
 Encoding: 7716 7716 2955
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -80175,7 +80176,7 @@ EndChar
 
 StartChar: uni1E26
 Encoding: 7718 7718 2957
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -80213,7 +80214,7 @@ EndChar
 
 StartChar: uni1E2A
 Encoding: 7722 7722 2959
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -80381,7 +80382,7 @@ EndChar
 
 StartChar: uni1E37
 Encoding: 7735 7735 2968
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 249 1697 basechar 0
@@ -80393,7 +80394,7 @@ AnchorPoint: "Anchor-0" 249 1697 basechar 0
 LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
-Refer: 468 803 N 1 0 0 1 846 10 2
+Refer: 468 803 N 1 0 0 1 858 10 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" l dotbelow
 EndChar
 
@@ -80418,7 +80419,7 @@ EndChar
 
 StartChar: uni1E39
 Encoding: 7737 7737 2970
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 249 1697 basechar 0
@@ -80430,8 +80431,8 @@ AnchorPoint: "Anchor-0" 249 1992 basechar 0
 LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
-Refer: 468 803 N 1 0 0 1 846 10 2
-Refer: 113 175 N 1 0 0 1 -224 415 2
+Refer: 468 803 N 1 0 0 1 858 10 2
+Refer: 113 175 N 1 0 0 1 -212 415 2
 EndChar
 
 StartChar: uni1E3A
@@ -80455,7 +80456,7 @@ EndChar
 
 StartChar: uni1E3B
 Encoding: 7739 7739 2972
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 249 1697 basechar 0
@@ -80467,7 +80468,7 @@ AnchorPoint: "Anchor-0" 249 1697 basechar 0
 LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
-Refer: 482 817 N 1 0 0 1 834 10 2
+Refer: 482 817 N 1 0 0 1 846 10 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" l macronsubnosp
 EndChar
 
@@ -80492,7 +80493,7 @@ EndChar
 
 StartChar: uni1E3D
 Encoding: 7741 7741 2974
-Width: 498
+Width: 545
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 249 1697 basechar 0
@@ -80504,7 +80505,7 @@ AnchorPoint: "Anchor-0" 249 1697 basechar 0
 LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
-Refer: 478 813 N 1 0 0 1 834 10 2
+Refer: 478 813 N 1 0 0 1 846 10 2
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" l circumflexsubnosp
 EndChar
 
@@ -80529,7 +80530,7 @@ EndChar
 
 StartChar: uni1E41
 Encoding: 7745 7745 2976
-Width: 1796
+Width: 1822
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 911 1290 basechar 0
@@ -80567,7 +80568,7 @@ EndChar
 
 StartChar: uni1E43
 Encoding: 7747 7747 2978
-Width: 1796
+Width: 1822
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 911 1290 basechar 0
@@ -80757,7 +80758,7 @@ EndChar
 
 StartChar: uni1E4D
 Encoding: 7757 7757 2988
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -80769,7 +80770,7 @@ AnchorPoint: "Anchor-0" 574 1954 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2268 -1 N 1 0 0 1 1106 4 2
+Refer: 2268 -1 N 1 0 0 1 1148 4 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o tildeacutecomb
 EndChar
@@ -80795,7 +80796,7 @@ EndChar
 
 StartChar: uni1E4F
 Encoding: 7759 7759 2990
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -80807,7 +80808,7 @@ AnchorPoint: "Anchor-0" 574 1889 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2258 -1 N 1 0 0 1 1106 4 2
+Refer: 2258 -1 N 1 0 0 1 1148 4 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o tildedieresiscomb
 EndChar
@@ -80833,7 +80834,7 @@ EndChar
 
 StartChar: uni1E51
 Encoding: 7761 7761 2992
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -80845,7 +80846,7 @@ AnchorPoint: "Anchor-0" 575 1936 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2262 -1 N 1 0 0 1 1106 8 2
+Refer: 2262 -1 N 1 0 0 1 1148 8 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o macrongravecomb
 EndChar
@@ -80871,7 +80872,7 @@ EndChar
 
 StartChar: uni1E53
 Encoding: 7763 7763 2994
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -80883,7 +80884,7 @@ AnchorPoint: "Anchor-0" 575 1936 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 2265 -1 N 1 0 0 1 1106 8 2
+Refer: 2265 -1 N 1 0 0 1 1148 8 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 6 subtable" o macronacutecomb
 EndChar
@@ -80984,7 +80985,7 @@ EndChar
 
 StartChar: uni1E59
 Encoding: 7769 7769 3000
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -81021,7 +81022,7 @@ EndChar
 
 StartChar: uni1E5B
 Encoding: 7771 7771 3002
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -81058,7 +81059,7 @@ EndChar
 
 StartChar: uni1E5D
 Encoding: 7773 7773 3004
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -81095,7 +81096,7 @@ EndChar
 
 StartChar: uni1E5F
 Encoding: 7775 7775 3006
-Width: 748
+Width: 784
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 408 1290 basechar 0
@@ -83063,7 +83064,7 @@ EndChar
 
 StartChar: uni1F40
 Encoding: 8000 8000 3120
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83075,13 +83076,13 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1082 8125 N 1 0 0 1 331 108 2
+Refer: 1082 8125 N 1 0 0 1 373 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
 StartChar: uni1F41
 Encoding: 8001 8001 3121
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83093,13 +83094,13 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1097 8190 N 1 0 0 1 303 108 2
+Refer: 1097 8190 N 1 0 0 1 345 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
 StartChar: uni1F42
 Encoding: 8002 8002 3122
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83111,13 +83112,13 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1087 8141 N 1 0 0 1 123 108 2
+Refer: 1087 8141 N 1 0 0 1 165 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
 StartChar: uni1F43
 Encoding: 8003 8003 3123
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83129,13 +83130,13 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1090 8157 N 1 0 0 1 96 108 2
+Refer: 1090 8157 N 1 0 0 1 138 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
 StartChar: uni1F44
 Encoding: 8004 8004 3124
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83147,13 +83148,13 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1088 8142 N 1 0 0 1 211 108 2
+Refer: 1088 8142 N 1 0 0 1 253 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
 StartChar: uni1F45
 Encoding: 8005 8005 3125
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83165,7 +83166,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1091 8158 N 1 0 0 1 141 108 2
+Refer: 1091 8158 N 1 0 0 1 183 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
@@ -83785,7 +83786,7 @@ EndChar
 
 StartChar: uni1F78
 Encoding: 8056 8056 3168
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83797,13 +83798,13 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1095 8175 N 1 0 0 1 182 108 2
+Refer: 1095 8175 N 1 0 0 1 224 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
 StartChar: uni1F79
 Encoding: 8057 8057 3169
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -83815,7 +83816,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 1096 8189 N 1 0 0 1 365 108 2
+Refer: 1096 8189 N 1 0 0 1 407 108 2
 Kerns2: 585 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 643 -72 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 652 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 671 -16 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 694 -15 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 721 -21 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 762 -11 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 772 -20 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 1123 -80 "'kern' Horizontal Kerning lookup 1 per glyph data 0" 2240 -22 "'kern' Horizontal Kerning lookup 1 per glyph data 0"
 EndChar
 
@@ -85016,7 +85017,7 @@ EndChar
 
 StartChar: uni1FCC
 Encoding: 8140 8140 3243
-Width: 1461
+Width: 1491
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 712 1612 basechar 0
@@ -85118,7 +85119,7 @@ EndChar
 
 StartChar: uni1FD8
 Encoding: 8152 8152 3250
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -85130,12 +85131,12 @@ AnchorPoint: "Anchor-0" 279 1928 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 393 728 N 1 0 0 1 -150 322 2
+Refer: 393 728 N 1 0 0 1 -192 322 2
 EndChar
 
 StartChar: uni1FD9
 Encoding: 8153 8153 3251
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -85147,12 +85148,12 @@ AnchorPoint: "Anchor-0" 279 1907 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 113 175 N 1 0 0 1 -194 330 2
+Refer: 113 175 N 1 0 0 1 -236 330 2
 EndChar
 
 StartChar: uni1FDA
 Encoding: 8154 8154 3252
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -85164,12 +85165,12 @@ AnchorPoint: "Anchor-0" 279 1612 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 1095 8175 N 1 0 0 1 -60 430 2
+Refer: 1095 8175 N 1 0 0 1 -102 430 2
 EndChar
 
 StartChar: uni1FDB
 Encoding: 8155 8155 3253
-Width: 557
+Width: 497
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 279 1612 basechar 0
@@ -85181,7 +85182,7 @@ AnchorPoint: "Anchor-0" 279 1612 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 1096 8189 N 1 0 0 1 123 430 2
+Refer: 1096 8189 N 1 0 0 1 81 430 2
 EndChar
 
 StartChar: uni1FE0
@@ -86708,7 +86709,7 @@ EndChar
 
 StartChar: oogonek.NAV
 Encoding: 1114691 -1 3349
-Width: 1080
+Width: 1122
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-6" 575 1290 basechar 0
@@ -86720,7 +86721,7 @@ AnchorPoint: "Anchor-0" 575 1290 basechar 0
 LayerCount: 2
 Fore
 Refer: 84 111 N 1 0 0 1 0 0 3
-Refer: 396 731 N 1 0 0 1 224 -1 2
+Refer: 396 731 N 1 0 0 1 266 -1 2
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 1 subtable" Oogonek.smcp.NAV
 EndChar
 
