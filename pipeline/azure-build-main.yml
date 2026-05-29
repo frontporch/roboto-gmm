@@ -2,7 +2,7 @@ trigger:
   - develop
 
 pool:
-  vmimage: "ubuntu-18.04"
+  vmimage: "ubuntu-22.04"
 
 variables:
   - group: "Global Settings"
@@ -10,10 +10,16 @@ variables:
 name: roboto_gmm_$(Date:yyyyMMdd)$(Rev:.r)
 
 steps:
-  - task: UseGitVersion@5
-    displayName: GitVersion
+  - task: gitversion/setup@0
+    displayName: Install GitVersion
     inputs:
-      versionSpec: 5.1.3
+      versionSpec: 5.8.1
+    condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'),contains(variables['Build.DefinitionName'], 'gmm-static')))
+
+  - task: gitversion/execute@0
+    displayName: Determine Version
+    inputs:
+      versionSpec: 5.8.1
     condition: and(succeeded(), or(startsWith(variables['Build.SourceBranch'], 'refs/heads/hotfix/'),startsWith(variables['Build.SourceBranch'], 'refs/heads/release/'),eq(variables['Build.SourceBranch'], 'refs/heads/master'),contains(variables['Build.DefinitionName'], 'gmm-static')))
 
   - powershell: |
@@ -40,18 +46,37 @@ steps:
 
   - script: |
       sudo apt-get install software-properties-common
-      sudo add-apt-repository ppa:fontforge/fontforge
-      sudo apt-get update
-      echo "------Install FontForge------"
-      sudo apt-get install python-fontforge woff2 --verbose-versions
+      sudo apt-get install python3-fontforge woff2 --verbose-versions
       echo "------Import FontForge------"
-      /usr/bin/python -c "import fontforge;print(fontforge)"
+      /usr/bin/python3 -c "import fontforge;print(fontforge)"
     displayName: "Install the dependency packages"
 
   - script: |
       python build.py
       for f in published/*.ttf; do woff2_compress $f; done
     displayName: "Build Font"
+
+  - script: |
+      echo "Build.SourceBranch: $(Build.SourceBranch)"
+      STABLE_TAG=$([ "$(Build.SourceBranch)" = "refs/heads/master" ] || [ "$(Build.SourceBranch)" = "refs/heads/hotfix/*" ] || [ "$(Build.SourceBranch)" = "refs/heads/release/*" ] && echo "stable" || echo "")
+      LATEST_TAG=$([ "$(Build.SourceBranch)" = "refs/heads/develop" ] && echo "latest" || echo "")
+      echo "##vso[task.setvariable variable=STABLE_TAG]$STABLE_TAG"
+      echo "##vso[task.setvariable variable=LATEST_TAG]$LATEST_TAG"
+    displayName: 'Debug and Set Tag Variables'
+
+  - task: Docker@2
+    displayName: 'Build and Push Docker Image'
+    inputs:
+      containerRegistry: 'Front Porch Docker Hub'
+      repository: 'frontporch/roboto-gmm'
+      command: 'buildAndPush'
+      Dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+      buildContext: '$(Build.SourcesDirectory)/'
+      tags: |
+        $(Build.BuildNumber)
+        $(STABLE_TAG)
+        $(LATEST_TAG)
+    condition: succeeded()
 
   - task: ArchiveFiles@2
     displayName: "Archive $(Build.SourcesDirectory)"
